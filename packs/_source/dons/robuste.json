@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
   "system": {
+    "identifier": "robuste",
     "description": {
       "value": "<p><strong>Don d'origines</strong></p><p>Vos points de vie maximum augmentent d'un montant égal à deux fois votre niveau actuel au moment de l'acquisition du don. Chaque fois que vous gagnez un niveau par la suite, vos points de vie maximum augmentent à nouveau de 2.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,

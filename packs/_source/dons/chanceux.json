@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/commodities/gems/gem-faceted-ball-violet.webp",
   "system": {
+    "identifier": "chanceux",
     "description": {
       "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Points de chance.</strong> Vous disposez d'un nombre de points de chance égal à votre bonus de maîtrise et pouvez les dépenser pour obtenir les bénéfices suivants. Vous récupérez les points de chance dépensés en terminant un Repos long.</p><p><strong>Avantage.</strong> Lorsque vous jouez un d20 dans le cadre d'un Test d20, vous pouvez dépenser 1 point de chance pour vous octroyer l'Avantage à ce jet.</p><p><strong>Désavantage.</strong> Lorsqu'une créature joue un d20 dans le cadre d'un jet d'attaque contre vous, vous pouvez dépenser 1 point de chance pour lui imposer le Désavantage à ce jet.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,
@@ -26,7 +27,12 @@
       "other": ""
     },
     "properties": [],
-    "advancement": []
+    "advancement": [],
+    "uses": {
+      "spent": 0,
+      "max": "@prof",
+      "recovery": [{"period": "lr", "type": "recoverAll", "formula": ""}]
+    }
   },
   "effects": [],
   "folder": null,

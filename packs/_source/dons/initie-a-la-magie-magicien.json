@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/magic/arcane/identifier-spellbook-glowing-teal.webp",
   "system": {
+    "identifier": "initie-a-la-magie-magicien",
     "description": {
       "value": "<p><strong>Don d'origines</strong> (peut être choisi plusieurs fois)</p><p>Vous apprenez deux sorts mineurs et un sort de niveau 1 issus de la liste de sorts du <strong>Magicien</strong>.</p><p>L'Intelligence, la Sagesse ou le Charisme est votre caractéristique d'incantation pour les sorts de ce don (choisissez à l'acquisition du don).</p><p><strong>Sorts mineurs.</strong> Choisissez deux sorts mineurs dans la liste de sorts du Magicien.</p><p><strong>Sort de niveau 1.</strong> Choisissez un sort du 1er niveau dans la liste de sorts du Magicien. Ce sort est toujours considéré comme préparé pour vous. Vous pouvez le lancer une fois sans dépenser d'emplacement de sort et récupérez cette aptitude en terminant un Repos long. Vous pouvez aussi lancer ce sort avec vos éventuels emplacements de sort.</p><p><strong>Remplacement de sort.</strong> Chaque fois que vous gagnez un niveau, vous pouvez remplacer l'un des sorts choisis dans le cadre de ce don par un autre sort du même niveau figurant dans la liste de sorts choisie.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,

@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/magic/life/cross-area-circle-green-white.webp",
   "system": {
+    "identifier": "guerisseur",
     "description": {
       "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Stabiliser.</strong> Lorsque vous utilisez une trousse de soins pour stabiliser une créature, cette créature regagne également 1 point de vie.</p><p><strong>Soins de combat.</strong> Par une action Bonus, vous pouvez dépenser l'une des utilisations d'une trousse de soins pour soigner une créature que vous pouvez voir dans un rayon de 1,50 m. La créature regagne un nombre de points de vie égal à 1d8 + votre bonus de maîtrise + son modificateur de Constitution (minimum 1 point de vie). Une même créature ne peut bénéficier de ce soin qu'une seule fois par Repos court ou long.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,

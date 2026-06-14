@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/weapons/fists/fist-punch-bronze.webp",
   "system": {
+    "identifier": "bagarreur-de-tavernes",
     "description": {
       "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Attaque à mains nues améliorée.</strong> Lorsque vous touchez avec votre attaque à mains nues et infligez des dégâts, vous pouvez infliger un total de dégâts contondants égal à 1d4 + votre modificateur de Force à la place des dégâts normaux d'attaque à mains nues.</p><p><strong>Relancer des dégâts.</strong> Chaque fois que vous jouez un dé de dégâts pour votre attaque à mains nues, vous pouvez relancer le dé si le résultat est un 1, le nouveau jet s'appliquant alors.</p><p><strong>Armement improvisé.</strong> Vous avez la maîtrise des armes improvisées.</p><p><strong>Bourrade.</strong> Lorsque vous touchez une créature avec une attaque à mains nues dans le cadre de votre action Attaque à votre tour, vous pouvez infliger les dégâts de l'attaque à la cible et la repousser de 1,50 m. Vous ne pouvez recourir à ce bénéfice qu'une seule fois par tour.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,

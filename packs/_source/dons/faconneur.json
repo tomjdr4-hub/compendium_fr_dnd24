@@ -5,6 +5,7 @@
   "type": "feat",
   "img": "icons/tools/hand/hammer-claw-black-yellow.webp",
   "system": {
+    "identifier": "faconneur",
     "description": {
       "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Maîtrise des outils.</strong> Vous recevez la maîtrise de trois types d'outils d'artisan de votre choix.</p><p><strong>Remise.</strong> Lorsque vous achetez un objet non magique, vous bénéficiez d'une remise de 20 % sur son prix.</p><p><strong>Fabrication rapide.</strong> Lorsque vous terminez un Repos long, vous pouvez fabriquer gratuitement un objet non magique d'une valeur de 5 po ou moins à condition de disposer des outils d'artisan adéquats. L'objet se désintègre à votre prochain Repos long si vous ne l'avez pas vendu ou donné avant.</p>",
       "chat": ""
@@ -17,8 +18,8 @@
       "rules": "2024"
     },
     "type": {
-      "value": "origin",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     },
     "prerequisites": {
       "level": null,
