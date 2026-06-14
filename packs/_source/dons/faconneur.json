@@ -1,0 +1,35 @@
+{
+  "_id": "Facon2024FrDon01",
+  "_key": "!items!Facon2024FrDon01",
+  "name": "Façonneur",
+  "type": "feat",
+  "img": "icons/tools/hand/hammer-claw-black-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Maîtrise des outils.</strong> Vous recevez la maîtrise de trois types d'outils d'artisan de votre choix.</p><p><strong>Remise.</strong> Lorsque vous achetez un objet non magique, vous bénéficiez d'une remise de 20 % sur son prix.</p><p><strong>Fabrication rapide.</strong> Lorsque vous terminez un Repos long, vous pouvez fabriquer gratuitement un objet non magique d'une valeur de 5 po ou moins à condition de disposer des outils d'artisan adéquats. L'objet se désintègre à votre prochain Repos long si vous ne l'avez pas vendu ou donné avant.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

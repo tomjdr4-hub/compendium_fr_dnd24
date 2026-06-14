@@ -1,0 +1,35 @@
+{
+  "_id": "Chanceux2024Fr01",
+  "_key": "!items!Chanceux2024Fr01",
+  "name": "Chanceux",
+  "type": "feat",
+  "img": "icons/commodities/gems/gem-faceted-ball-violet.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Points de chance.</strong> Vous disposez d'un nombre de points de chance égal à votre bonus de maîtrise et pouvez les dépenser pour obtenir les bénéfices suivants. Vous récupérez les points de chance dépensés en terminant un Repos long.</p><p><strong>Avantage.</strong> Lorsque vous jouez un d20 dans le cadre d'un Test d20, vous pouvez dépenser 1 point de chance pour vous octroyer l'Avantage à ce jet.</p><p><strong>Désavantage.</strong> Lorsqu'une créature joue un d20 dans le cadre d'un jet d'attaque contre vous, vous pouvez dépenser 1 point de chance pour lui imposer le Désavantage à ce jet.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "201",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

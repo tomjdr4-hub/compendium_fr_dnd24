@@ -1,0 +1,35 @@
+{
+  "_id": "SavMart2024Fr001",
+  "_key": "!items!SavMart2024Fr001",
+  "name": "Sauvagerie martiale",
+  "type": "feat",
+  "img": "icons/weapons/axes/axe-battle-black.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous êtes formé à porter des coups dévastateurs. Une fois par tour, lorsque vous touchez une cible avec une arme, vous pouvez lancer deux fois les dés de dégâts de l'arme et utiliser l'un ou l'autre résultat contre la cible.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "203",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

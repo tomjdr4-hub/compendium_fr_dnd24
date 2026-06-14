@@ -1,0 +1,35 @@
+{
+  "_id": "Robus2024FrDon01",
+  "_key": "!items!Robus2024FrDon01",
+  "name": "Robuste",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vos points de vie maximum augmentent d'un montant égal à deux fois votre niveau actuel au moment de l'acquisition du don. Chaque fois que vous gagnez un niveau par la suite, vos points de vie maximum augmentent à nouveau de 2.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

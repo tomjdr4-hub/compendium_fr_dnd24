@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "fvtt package pack --in packs/_source/historiques --out packs/historiques --id dnd2024-historiques-fr",
-    "unpack": "fvtt package unpack --in packs/historiques --out packs/_source/historiques --id dnd2024-historiques-fr"
+    "build": "fvtt package pack --in packs/_source/historiques --out packs -n historiques && fvtt package pack --in packs/_source/dons --out packs -n dons",
+    "unpack": "fvtt package unpack --in packs/historiques --out packs/_source/historiques -n historiques && fvtt package unpack --in packs/dons --out packs/_source/dons -n dons"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.0"

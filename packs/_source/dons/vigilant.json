@@ -1,0 +1,35 @@
+{
+  "_id": "Vigilant2024Fr01",
+  "_key": "!items!Vigilant2024Fr01",
+  "name": "Vigilant",
+  "type": "feat",
+  "img": "icons/skills/targeting/crosshair-asteroid.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Maîtrise de l'initiative.</strong> Lorsque vous jouez l'initiative, ajoutez votre bonus de maîtrise au jet.</p><p><strong>Échange d'initiative.</strong> Aussitôt après avoir joué l'initiative, vous pouvez échanger votre Initiative avec celle d'un allié volontaire pour le combat à venir. Un tel échange est impossible si vous-même ou l'allié désigné subissez l'état Neutralisé.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "203",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

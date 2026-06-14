@@ -1,0 +1,5 @@
+2026/06/14-16:19:34.209 a468 Delete type=3 #1
+2026/06/14-16:19:34.212 126a8 Level-0 table #5: started
+2026/06/14-16:19:34.213 126a8 Level-0 table #5: 6972 bytes OK
+2026/06/14-16:19:34.214 126a8 Delete type=0 #3
+2026/06/14-16:19:34.214 126a8 Manual compaction at level-0 from '!items!BagDeTab2024Fr01' @ 72057594037927935 : 1 .. '!items!Vigilant2024Fr01' @ 0 : 0; will stop at (end)

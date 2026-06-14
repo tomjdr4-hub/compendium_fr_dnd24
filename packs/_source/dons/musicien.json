@@ -1,0 +1,35 @@
+{
+  "_id": "Music2024FrDon01",
+  "_key": "!items!Music2024FrDon01",
+  "name": "Musicien",
+  "type": "feat",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez les bénéfices suivants.</p><p><strong>Maîtrise des instruments.</strong> Vous recevez la maîtrise de trois instruments de musique de votre choix.</p><p><strong>Chant d'encouragement.</strong> Au terme d'un Repos court ou long, vous pouvez jouer de la musique pendant 10 minutes. Jusqu'à cinq créatures de votre choix qui ont entendu l'intégralité de l'interprétation reçoivent chacune un dé d'Inspiration bardique (d6). Une créature ne peut bénéficier de ce dé que si elle n'en possède pas déjà un. Ces dés expirent au terme de votre prochain Repos court ou long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "Doue2024FrDon001",
+  "_key": "!items!Doue2024FrDon001",
+  "name": "Doué",
+  "type": "feat",
+  "img": "icons/skills/trades/academics-book-graduation-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Don d'origines</strong></p><p>Vous recevez la maîtrise de trois compétences de votre choix.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "Manuel des Joueurs 2024",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "origin",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "other": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {}
+}
