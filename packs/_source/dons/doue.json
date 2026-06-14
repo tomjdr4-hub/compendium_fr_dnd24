@@ -25,7 +25,22 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": [
+      {
+        "_id": "DoueSkillChoice1",
+        "type": "Trait",
+        "level": 0,
+        "title": "Maîtrises de compétence",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [{"count": 3, "pool": ["skills:acr","skills:ani","skills:arc","skills:ath","skills:dec","skills:his","skills:ins","skills:itm","skills:inv","skills:med","skills:nat","skills:per","skills:prc","skills:prf","skills:rel","skills:slt","skills:ste","skills:sur"]}]
+        },
+        "value": {"chosen": []}
+      }
+    ]
   },
   "effects": [],
   "folder": null,

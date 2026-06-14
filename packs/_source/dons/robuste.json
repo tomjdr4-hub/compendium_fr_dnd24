@@ -25,9 +25,28 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": []
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "RobusHPBonus0001",
+      "_key": "!items.effects!Robus2024FrDon01.RobusHPBonus0001",
+      "type": "base",
+      "name": "Robuste — Bonus de points de vie",
+      "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
+      "changes": [
+        {"key": "system.attributes.hp.bonuses.overall", "mode": 2, "value": "2 * @details.level", "priority": null}
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "",
+      "origin": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "ownership": { "default": 0 },

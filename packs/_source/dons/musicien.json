@@ -25,7 +25,22 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": [
+      {
+        "_id": "MusicInstChoice1",
+        "type": "Trait",
+        "level": 0,
+        "title": "Maîtrise des instruments",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [{"count": 3, "pool": ["tool:bagpipes","tool:drum","tool:dulcimer","tool:flute","tool:horn","tool:lute","tool:lyre","tool:panFlute","tool:shawm","tool:viol"]}]
+        },
+        "value": {"chosen": []}
+      }
+    ]
   },
   "effects": [],
   "folder": null,

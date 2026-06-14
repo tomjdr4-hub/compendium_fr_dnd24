@@ -25,7 +25,22 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": [
+      {
+        "_id": "InitDrASI2024Fr1",
+        "type": "AbilityScoreImprovement",
+        "level": 0,
+        "title": "Amélioration de caractéristique",
+        "configuration": {
+          "points": 1,
+          "fixed": {},
+          "cap": 1,
+          "locked": []
+        },
+        "value": {"assignments": {}, "complete": false}
+      }
+    ]
   },
   "effects": [],
   "folder": null,

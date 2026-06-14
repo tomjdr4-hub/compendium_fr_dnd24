@@ -25,7 +25,22 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": [
+      {
+        "_id": "FaconToolChoice1",
+        "type": "Trait",
+        "level": 0,
+        "title": "Maîtrise des outils",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [{"count": 3, "pool": ["tool:alchemist","tool:brewer","tool:calligrapher","tool:carpenter","tool:cartographer","tool:cobbler","tool:cook","tool:glassblower","tool:jeweler","tool:leatherworker","tool:mason","tool:painter","tool:potter","tool:smith","tool:tinker","tool:weaver","tool:woodcarver"]}]
+        },
+        "value": {"chosen": []}
+      }
+    ]
   },
   "effects": [],
   "folder": null,

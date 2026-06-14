@@ -25,9 +25,28 @@
       "items": [],
       "other": ""
     },
-    "properties": []
+    "properties": [],
+    "advancement": []
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "VigInitBonus0001",
+      "_key": "!items.effects!Vigilant2024Fr01.VigInitBonus0001",
+      "type": "base",
+      "name": "Vigilant — Bonus d'initiative",
+      "img": "icons/skills/targeting/crosshair-asteroid.webp",
+      "changes": [
+        {"key": "system.attributes.init.bonus", "mode": 2, "value": "@prof", "priority": null}
+      ],
+      "disabled": false,
+      "duration": {},
+      "description": "",
+      "origin": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "ownership": { "default": 0 },
