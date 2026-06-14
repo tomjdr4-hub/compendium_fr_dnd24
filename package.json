@@ -1,0 +1,13 @@
+{
+  "name": "dnd2024-historiques-fr",
+  "description": "Module Foundry VTT - Historiques D&D 2024 (FR)",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "fvtt package pack --in packs/_source/historiques --out packs/historiques --id dnd2024-historiques-fr",
+    "unpack": "fvtt package unpack --in packs/historiques --out packs/_source/historiques --id dnd2024-historiques-fr"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0"
+  }
+}

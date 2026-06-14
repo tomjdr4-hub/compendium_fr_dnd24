@@ -1,0 +1,58 @@
+{
+  "_id": "AcolyteHisto2024",
+  "name": "Acolyte",
+  "type": "background",
+  "img": "icons/equipment/neck/necklace-runed-white-red.webp",
+  "system": {
+    "identifier": "acolyte",
+    "description": {
+      "value": "<p>Vous avez consacré votre vie au service d'un temple voué à une divinité ou à un panthéon. Vous servez d'intermédiaire entre le monde mortel et les puissances divines, accomplissant des rites sacrés et offrant des sacrifices pour conduire les fidèles en la présence du divin.</p><table border=\"1\"><thead><tr><th>Élément</th><th>Détail</th></tr></thead><tbody><tr><td><strong>Valeurs de caractéristique</strong></td><td>Intelligence, Sagesse, Charisme — augmentez l'une de 2 et une autre de 1, ou augmentez les trois de 1</td></tr><tr><td><strong>Don d'origine</strong></td><td>Initié à la magie (Clerc)</td></tr><tr><td><strong>Maîtrises de compétence</strong></td><td>Intuition, Religion</td></tr><tr><td><strong>Maîtrise d'outils</strong></td><td>Matériel de calligraphe</td></tr></tbody></table><h3>Équipement de départ</h3><p>Choisissez A ou B :</p><ul><li><strong>Option A :</strong> Matériel de calligraphe, livre de prières, symbole sacré, 10 parchemins, robe, 8 po</li><li><strong>Option B :</strong> 50 pièces d'or</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.2.1",
+      "page": "87",
+      "license": "CC-BY-4.0",
+      "rules": "2024"
+    },
+    "advancement": [
+      {
+        "_id": "AcolyteSkills001",
+        "type": "Trait",
+        "level": 0,
+        "title": "Maîtrises de compétence",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:rel"
+          ],
+          "choices": []
+        }
+      },
+      {
+        "_id": "AcolyteTools0001",
+        "type": "Trait",
+        "level": 0,
+        "title": "Maîtrise d'outils",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:calligrapher"
+          ],
+          "choices": []
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

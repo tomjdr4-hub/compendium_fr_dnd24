@@ -1,0 +1,41 @@
+{
+  "id": "dnd2024-historiques-fr",
+  "title": "D&D 2024 — Historiques en Français",
+  "description": "Compendium des historiques du jeu de rôle Dungeons &amp; Dragons 2024 en français, basé sur le SRD 5.2.1 (CC-BY-4.0).",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Compendium FR D&D 2024"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "historiques",
+      "label": "Historiques D&D 2024",
+      "path": "packs/historiques",
+      "type": "Item",
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/tomjdr4-hub/compendium_fr_dnd24",
+  "manifest": "https://raw.githubusercontent.com/tomjdr4-hub/compendium_fr_dnd24/main/module.json",
+  "download": "https://github.com/tomjdr4-hub/compendium_fr_dnd24/releases/latest/download/module.zip",
+  "bugs": "https://github.com/tomjdr4-hub/compendium_fr_dnd24/issues",
+  "flags": {}
+}
