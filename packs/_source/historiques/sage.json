@@ -1,14 +1,14 @@
 {
-  "name": "Acolyte",
+  "name": "Sage",
   "system": {
     "description": {
-      "value": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Cleric)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (prayers), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (10 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>",
+      "value": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Wizard)</p><p><strong>Skill Proficiencies:</strong> Arcana and History</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (history), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (8 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
       "chat": ""
     },
     "source": {
       "custom": "",
       "rules": "2024",
-      "revision": 2,
+      "revision": 1,
       "license": "CC-BY-4.0",
       "book": ""
     },
@@ -16,60 +16,60 @@
       {
         "type": "AND",
         "requiresProficiency": false,
-        "_id": "jBbYoNZtbWE8sFAK",
+        "_id": "uRcBoDkXkBGLcAZa",
         "group": "",
         "sort": 100000
       },
       {
         "type": "linked",
         "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
+        "requiresProficiency": false,
+        "_id": "xLC7HRRS752ZwUWt",
+        "group": "uRcBoDkXkBGLcAZa",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
         "key": "Compendium.dnd5e.equipment24.Item.phbtulCalligraph",
         "requiresProficiency": false,
-        "_id": "SJ6L0ftgjWR0IHqf",
-        "group": "jBbYoNZtbWE8sFAK",
-        "sort": 200000
+        "_id": "fHJXE95uLEXFOpM3",
+        "group": "uRcBoDkXkBGLcAZa",
+        "sort": 300000
       },
       {
         "type": "linked",
         "count": null,
         "key": "Compendium.dnd5e.equipment24.Item.phbagBook0000000",
         "requiresProficiency": false,
-        "_id": "JyGC1bsbScRwmhwo",
-        "group": "jBbYoNZtbWE8sFAK",
-        "sort": 300000
+        "_id": "ChFHtKBM5dzyV084",
+        "group": "uRcBoDkXkBGLcAZa",
+        "sort": 400000
       },
       {
-        "type": "focus",
-        "count": null,
-        "key": "holy",
+        "type": "linked",
+        "count": 8,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagParchment00",
         "requiresProficiency": false,
-        "_id": "mqDqagje0Uupgti8",
-        "group": "jBbYoNZtbWE8sFAK",
-        "sort": 350000
+        "_id": "c1HLvf7xNWmkdpms",
+        "group": "uRcBoDkXkBGLcAZa",
+        "sort": 500000
       },
       {
         "type": "linked",
         "count": null,
         "key": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
         "requiresProficiency": false,
-        "_id": "XjrKVdIBjZzoS9w2",
-        "group": "jBbYoNZtbWE8sFAK",
+        "_id": "Hnd8cbnz7zj8A7SL",
+        "group": "uRcBoDkXkBGLcAZa",
         "sort": 600000
-      },
-      {
-        "type": "linked",
-        "count": 10,
-        "key": "Compendium.dnd5e.equipment24.Item.phbagParchment00",
-        "requiresProficiency": false,
-        "_id": "0MPEwCGayquuW846",
-        "group": "jBbYoNZtbWE8sFAK",
-        "sort": 475000
       }
     ],
-    "identifier": "acolyte",
+    "identifier": "sage",
     "advancement": [
       {
-        "_id": "kDI6zoUamHzFTvHG",
+        "_id": "3O61L5uTy5jRCqJb",
         "type": "AbilityScoreImprovement",
         "configuration": {
           "cap": 2,
@@ -84,25 +84,25 @@
           "locked": [
             "str",
             "dex",
-            "con"
+            "cha"
           ],
           "points": 3
         },
         "value": {},
         "level": 0,
         "title": "Background Ability Score Improvement",
-        "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
       },
       {
-        "_id": "Lk1ScjOCqRDtX2Tg",
+        "_id": "DMd8rikwPlZdpP1l",
         "type": "Trait",
         "configuration": {
           "mode": "default",
           "allowReplacements": false,
           "grants": [
             "tool:art:calligrapher",
-            "skills:ins",
-            "skills:rel"
+            "skills:arc",
+            "skills:his"
           ],
           "choices": []
         },
@@ -111,10 +111,10 @@
         },
         "level": 0,
         "title": "Background Proficiencies",
-        "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+        "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies."
       },
       {
-        "_id": "ygyW1bVUTnCnjxY2",
+        "_id": "kKt7VMmZUuRr35dP",
         "type": "ItemGrant",
         "configuration": {
           "items": [
@@ -129,10 +129,10 @@
         "value": {},
         "level": 0,
         "title": "Background Feat",
-        "hint": "Your background grants you the Magic Initiate (Cleric) feat."
+        "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
       },
       {
-        "_id": "McRHkSL3WnG2Po7g",
+        "_id": "pLGiyOjTP7nwuwTl",
         "type": "Trait",
         "configuration": {
           "mode": "default",
@@ -159,25 +159,25 @@
     ],
     "wealth": "50"
   },
-  "_id": "phbbgAcolyte0000",
+  "_id": "phbbgSage0000000",
   "type": "background",
-  "img": "icons/equipment/neck/necklace-runed-white-red.webp",
+  "img": "icons/sundries/books/book-open-brown.webp",
   "effects": [],
   "folder": "ysJSs3cbEBOMC1zV",
-  "sort": 100000,
+  "sort": 100098,
   "ownership": {
     "default": 0
   },
   "flags": {},
   "_stats": {
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.344",
     "systemId": "dnd5e",
-    "systemVersion": "5.1.1",
-    "createdTime": 1735866669920,
-    "modifiedTime": 1755290571065,
+    "systemVersion": "4.4.0",
+    "createdTime": 1735866663056,
+    "modifiedTime": 1745687918108,
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!phbbgAcolyte0000"
+  "_key": "!items!phbbgSage0000000"
 }

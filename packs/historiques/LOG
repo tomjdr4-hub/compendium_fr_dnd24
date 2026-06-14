@@ -1,15 +1,7 @@
-2026/06/14-16:22:15.533 dd08 Recovering log #4
-2026/06/14-16:22:15.539 dd08 Delete type=0 #4
-2026/06/14-16:22:15.539 dd08 Delete type=3 #2
-2026/06/14-16:22:15.542 10008 Level-0 table #9: started
-2026/06/14-16:22:15.543 10008 Level-0 table #9: 1638 bytes OK
-2026/06/14-16:22:15.544 10008 Delete type=0 #7
-2026/06/14-16:22:15.544 10008 Manual compaction at level-0 from '!items!AcolyteHisto2024' @ 72057594037927935 : 1 .. '!items!AcolyteHisto2024' @ 0 : 0; will stop at (end)
-2026/06/14-16:22:15.544 10008 Manual compaction at level-1 from '!items!AcolyteHisto2024' @ 72057594037927935 : 1 .. '!items!AcolyteHisto2024' @ 0 : 0; will stop at '!items!AcolyteHisto2024' @ 2 : 1
-2026/06/14-16:22:15.544 10008 Compacting 1@1 + 1@2 files
-2026/06/14-16:22:15.545 10008 Generated table #10@1: 1 keys, 1638 bytes
-2026/06/14-16:22:15.545 10008 Compacted 1@1 + 1@2 files => 1638 bytes
-2026/06/14-16:22:15.546 10008 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/14-16:22:15.546 10008 Delete type=2 #5
-2026/06/14-16:22:15.547 10008 Delete type=2 #9
-2026/06/14-16:22:15.547 10008 Manual compaction at level-1 from '!items!AcolyteHisto2024' @ 2 : 1 .. '!items!AcolyteHisto2024' @ 0 : 0; will stop at (end)
+2026/06/14-17:20:29.790 13170 Recovering log #8
+2026/06/14-17:20:29.794 13170 Delete type=0 #8
+2026/06/14-17:20:29.794 13170 Delete type=3 #6
+2026/06/14-17:20:29.797 f2dc Level-0 table #14: started
+2026/06/14-17:20:29.798 f2dc Level-0 table #14: 9122 bytes OK
+2026/06/14-17:20:29.800 f2dc Delete type=0 #12
+2026/06/14-17:20:29.800 f2dc Manual compaction at level-0 from '!items!phbbgAcolyte0000' @ 72057594037927935 : 1 .. '!items!phbbgSoldier0000' @ 0 : 0; will stop at (end)

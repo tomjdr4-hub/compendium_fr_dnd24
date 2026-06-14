@@ -1,15 +1,3 @@
-2026/06/14-16:37:39.728 13e44 Recovering log #12
-2026/06/14-16:37:39.732 13e44 Delete type=0 #12
-2026/06/14-16:37:39.733 13e44 Delete type=3 #11
-2026/06/14-16:37:39.738 13a84 Level-0 table #16: started
-2026/06/14-16:37:39.740 13a84 Level-0 table #16: 8428 bytes OK
-2026/06/14-16:37:39.741 13a84 Delete type=0 #14
-2026/06/14-16:37:39.741 13a84 Manual compaction at level-0 from '!items!BagDeTab2024Fr01' @ 72057594037927935 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at (end)
-2026/06/14-16:37:39.741 13a84 Manual compaction at level-1 from '!items!BagDeTab2024Fr01' @ 72057594037927935 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 38 : 1
-2026/06/14-16:37:39.741 13a84 Compacting 1@1 + 1@2 files
-2026/06/14-16:37:39.743 13a84 Generated table #17@1: 14 keys, 8428 bytes
-2026/06/14-16:37:39.743 13a84 Compacted 1@1 + 1@2 files => 8428 bytes
-2026/06/14-16:37:39.744 13a84 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/14-16:37:39.744 13a84 Delete type=2 #10
-2026/06/14-16:37:39.744 13a84 Delete type=2 #16
-2026/06/14-16:37:39.744 13a84 Manual compaction at level-1 from '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 38 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at (end)
+2026/06/14-17:22:26.288 108bc Recovering log #27
+2026/06/14-17:22:26.296 108bc Delete type=0 #27
+2026/06/14-17:22:26.296 108bc Delete type=3 #25

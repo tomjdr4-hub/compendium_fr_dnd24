@@ -39,6 +39,14 @@
       "type": "Item",
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "especes",
+      "label": "Espèces D&D 2024",
+      "path": "packs/especes",
+      "type": "Item",
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "url": "https://github.com/tomjdr4-hub/compendium_fr_dnd24",

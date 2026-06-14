@@ -1,15 +1,22 @@
-2026/06/14-16:47:10.121 12618 Recovering log #15
-2026/06/14-16:47:10.125 12618 Delete type=0 #15
-2026/06/14-16:47:10.125 12618 Delete type=3 #13
-2026/06/14-16:47:10.129 13c84 Level-0 table #21: started
-2026/06/14-16:47:10.130 13c84 Level-0 table #21: 8557 bytes OK
-2026/06/14-16:47:10.132 13c84 Delete type=0 #19
-2026/06/14-16:47:10.132 13c84 Manual compaction at level-0 from '!items!BagDeTab2024Fr01' @ 72057594037927935 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at (end)
-2026/06/14-16:47:10.132 13c84 Manual compaction at level-1 from '!items!BagDeTab2024Fr01' @ 72057594037927935 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 52 : 1
-2026/06/14-16:47:10.132 13c84 Compacting 1@1 + 1@2 files
-2026/06/14-16:47:10.133 13c84 Generated table #22@1: 14 keys, 8557 bytes
-2026/06/14-16:47:10.133 13c84 Compacted 1@1 + 1@2 files => 8557 bytes
-2026/06/14-16:47:10.134 13c84 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/14-16:47:10.134 13c84 Delete type=2 #17
-2026/06/14-16:47:10.134 13c84 Delete type=2 #21
-2026/06/14-16:47:10.135 13c84 Manual compaction at level-1 from '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 52 : 1 .. '!items.effects!Vigilant2024Fr01.VigInitBonus0001' @ 0 : 0; will stop at (end)
+2026/06/14-17:24:18.982 10410 Recovering log #29
+2026/06/14-17:24:18.988 10410 Delete type=0 #29
+2026/06/14-17:24:18.988 10410 Delete type=3 #28
+2026/06/14-17:24:18.991 2874 Level-0 table #33: started
+2026/06/14-17:24:18.992 2874 Level-0 table #33: 16180 bytes OK
+2026/06/14-17:24:18.993 2874 Delete type=0 #31
+2026/06/14-17:24:18.994 2874 Manual compaction at level-0 from '!items!phbBoonofCombatP' @ 72057594037927935 : 1 .. '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 0 : 0; will stop at '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 69 : 1
+2026/06/14-17:24:18.994 2874 Compacting 2@0 + 0@1 files
+2026/06/14-17:24:18.995 2874 Generated table #34@0: 37 keys, 16443 bytes
+2026/06/14-17:24:18.995 2874 Compacted 2@0 + 0@1 files => 16443 bytes
+2026/06/14-17:24:18.997 2874 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/14-17:24:18.997 2874 Delete type=2 #26
+2026/06/14-17:24:18.997 2874 Delete type=2 #33
+2026/06/14-17:24:18.997 2874 Manual compaction at level-0 from '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 69 : 1 .. '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 0 : 0; will stop at (end)
+2026/06/14-17:24:18.997 2874 Manual compaction at level-1 from '!items!phbBoonofCombatP' @ 72057594037927935 : 1 .. '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 0 : 0; will stop at '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 69 : 1
+2026/06/14-17:24:18.997 2874 Compacting 1@1 + 1@2 files
+2026/06/14-17:24:18.999 2874 Generated table #35@1: 23 keys, 16180 bytes
+2026/06/14-17:24:18.999 2874 Compacted 1@1 + 1@2 files => 16180 bytes
+2026/06/14-17:24:18.999 2874 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/14-17:24:18.999 2874 Delete type=2 #22
+2026/06/14-17:24:19.000 2874 Delete type=2 #34
+2026/06/14-17:24:19.000 2874 Manual compaction at level-1 from '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 69 : 1 .. '!items.effects!phbftAlert000000.uvZy4Zzi0oPd54qs' @ 0 : 0; will stop at (end)
