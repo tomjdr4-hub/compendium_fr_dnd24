@@ -1,7 +1,7 @@
 {
   "id": "dnd2024-historiques-fr",
-  "title": "D&D 2024 — Historiques en Français",
-  "description": "Compendium des historiques du jeu de rôle Dungeons &amp; Dragons 2024 en français, basé sur le SRD 5.2.1 (CC-BY-4.0).",
+  "title": "D&D 2024 — Compendium FR",
+  "description": "Compendium pour Dungeons &amp; Dragons 2024 en français, basé sur le SRD 5.2.1 (CC-BY-4.0).",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",

@@ -1,0 +1,5 @@
+2026/06/14-15:49:17.393 a5f8 Delete type=3 #1
+2026/06/14-15:49:17.397 f618 Level-0 table #5: started
+2026/06/14-15:49:17.398 f618 Level-0 table #5: 1501 bytes OK
+2026/06/14-15:49:17.399 f618 Delete type=0 #3
+2026/06/14-15:49:17.399 f618 Manual compaction at level-0 from '!items!AcolyteHisto2024' @ 72057594037927935 : 1 .. '!items!AcolyteHisto2024' @ 0 : 0; will stop at (end)
